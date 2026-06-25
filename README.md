@@ -1,20 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Nadir Siddiqui
 
-# Run and deploy your AI Studio app
+Computer Science (AI) undergraduate passionate about Full-Stack Development, AI/ML, and Software Engineering. Experienced in building scalable web applications using the MERN stack and developing AI-powered solutions with Computer Vision and Machine Learning.
 
-This contains everything you need to run your app locally.
+## 🚀 Tech Stack
+- Frontend: React.js, Redux, HTML, CSS
+- Backend: Node.js, Express.js
+- Databases: MongoDB, MySQL, PostgreSQL
+- AI/ML: Python, TensorFlow, OpenCV, YOLOv5, MediaPipe
+- Tools: Git, GitHub, Postman, Linux
 
-View your app in AI Studio: https://ai.studio/apps/de61b588-6d03-4d32-8e2d-989c5f1fb401
+## 💡 Featured Projects
+- 🏠 Airbnb Clone – Full-stack property rental platform with JWT authentication.
+- 💰 Cost Guardian – AI-powered expense management and cost leakage detection system.
+- 🌾 Crop Detection & Weather Analytics System – Disease detection with weather insights.
+- 🤖 AI Multi-Modal Recognition System – Object, emotion, and gesture recognition platform.
 
-## Run Locally
+## 📫 Connect With Me
+- Email: nadirsiddiqui092@gmail.com
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+⭐ Always learning, building, and exploring new technologies.
