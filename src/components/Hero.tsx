@@ -28,7 +28,7 @@ export function Hero() {
         <motion.h1 
           initial={{ opacity: 0, y: 22 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9, delay: 0.08, ease: [0.2, 0.7, 0.3, 1] }}
+          transition={{ duration: 0.9, ease: [0.2, 0.7, 0.3, 1] }}
           className="text-[clamp(40px,7vw,80px)] leading-[1.05] font-semibold tracking-[-0.025em] text-ink max-w-[14ch] mx-auto"
         >
           Building reliable systems, <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#0071e3] via-[#6a3fd6] to-[#bf4da0] inline-block">end to end.</span>
@@ -37,7 +37,7 @@ export function Hero() {
         <motion.p 
           initial={{ opacity: 0, y: 22 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9, delay: 0.18, ease: [0.2, 0.7, 0.3, 1] }}
+          transition={{ duration: 0.9, ease: [0.2, 0.7, 0.3, 1] }}
           className="text-[clamp(19px,2.4vw,25px)] text-ink-soft max-w-[40ch] mx-auto mt-[26px] leading-[1.42] tracking-[-0.01em]"
         >
           I'm a computer science undergraduate with hands-on experience building robust software systems. Proven ability to design and ship production-grade features across the stack, focusing on performance, reliability, and clean code.
@@ -46,15 +46,25 @@ export function Hero() {
         <motion.div 
           initial={{ opacity: 0, y: 22 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9, delay: 0.28, ease: [0.2, 0.7, 0.3, 1] }}
+          transition={{ duration: 0.9, ease: [0.2, 0.7, 0.3, 1] }}
           className="mt-[38px] flex gap-[26px] justify-center items-center flex-wrap"
         >
-          <a href="#contact" className="bg-apple-blue text-white px-[26px] py-[13px] rounded-full text-[17px] hover:bg-[#0077ed] hover:-translate-y-[1px] transition-all">
+          <motion.a 
+            href="#contact" 
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="bg-apple-blue text-white px-[26px] py-[13px] rounded-full text-[17px] hover:bg-[#0077ed] transition-colors"
+          >
             Get in touch
-          </a>
-          <a href="#work" className="text-[17px] text-apple-link hover:mr-[-3px] transition-all flex items-center gap-1 group">
+          </motion.a>
+          <motion.a 
+            href="#work" 
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="text-[17px] text-apple-link flex items-center gap-1 group"
+          >
             See my work <span className="group-hover:translate-x-1 transition-transform">›</span>
-          </a>
+          </motion.a>
         </motion.div>
       </div>
     </header>
